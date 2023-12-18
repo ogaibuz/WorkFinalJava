@@ -1,0 +1,6 @@
+controlador\RegistroContacto.class
+connect\Conexion.class
+model\Contacto.class
+controlador\GestionContactoServlet.class
+controlador\LoginServlet.class
+dao\ContactosDAO.class

@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+nav {
+    padding: 0px 70px 0px 70px;
+    width: 100vw;
+    /* display: flex;*/
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    font-size: 25px;
+}
+
+.navbar{
+  display: flex;
+  background-color: #353a40;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-collapse{
+    flex-grow: 0;  /* Envia el menú a la izquierda */
+}
+
+nav img {
+    width: 120px;
+}
+
+.right{
+    display: flex;
+}
+
+footer {
+    background-color: #214d67;
+    color: white;
+    height: 150px;
+}
+
+.list-group .list-group-item{
+    border-top: 0 none;
+    border-left: 0 none;
+    border-bottom: 0 none;
+    border-right: 0 none;
+  }
+
+.img_div{
+    height: 500px;
+    width: 49vw;
+  }
+
+.img-brand {
+    height: 2.75rem;
+  }
+
+page-section#services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+  
+.card-group {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 15% 0% 15%;
+}
+
+.card {
+    width: 35%;
+    border: 0.1px solid rgb(213 213 213);
+    margin-left: 35px;
+    margin-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cardImage {
+    width: 100%;
+}
+
+.cardImage img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+#nosotros {
+    margin-top: 30px;
+}
+
+section#contact {
+    background-color: #212529;
+    background-image: url("img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+section#contact .section-heading ,
+section#contact .section-subheading 
+{
+    color: #fff;
+  }
+
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("img/hack1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+
+header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+section#contact form#contactForm .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+section#contact form#contactForm .form-group input,
+section#contact form#contactForm .form-group textarea {
+  padding: 1.25rem;
+}
+section#contact form#contactForm .form-group input.form-control {
+  height: auto;
+}
+
+section#contact form#contactForm .form-group-textarea textarea {
+  height: 100%;
+  min-height: 10rem;
+}
+section#contact form#contactForm p.help-block {
+  margin: 10px;
+}
+section#contact form#contactForm .form-control:focus {
+  border-color: #ffc800;
+  box-shadow: none;
+}
+
+.btn-xl {
+    padding: 1.25rem 2.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem; 
+    font-weight: 700;
+ }
+ 
+ div.text-center{
+     margin: 10px;
+     padding:10px;
+ }
+
+@media only screen and (max-width: 574px) {
+    .img_div{
+        height: 500px;
+        width: 100vw;
+      }
+ 
+
+}
+
+@media only screen and (max-width: 660px){
+    .card-group{
+        width: max-content;
+        display: inline-table;
+        padding-left: 0;
+      }
+      
+    .card{
+        margin-left: 0;
+        
+      }
+      .cardImage {
+          object-fit: cover;
+          width:100vw;
+      }
+}
+
+@media only screen and (max-width: 572px){
+  .card-text{
+          width: 60%;
+      }    
+}
